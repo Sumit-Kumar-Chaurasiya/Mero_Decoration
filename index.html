@@ -1,0 +1,168 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background: url("file:///G:/bklogo.png");
+      background-size: cover;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .main_title {
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      color: green;
+    }
+
+    .container {
+      border: 5px solid rgb(31, 53, 59);
+      background-color: rgb(132, 214, 233);
+      opacity: 0.8;
+      border-radius: 0 40px;
+      max-width: 400px;
+      width: 50%;
+      padding: 10px 30px 5px 30px;
+      justify-content: center;
+      margin: auto;
+    }
+
+    .signup {
+      width: 100%;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      display: flex;
+      padding: 5px 0 5px 10px;
+      font-size: 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+
+    }
+
+    input:focus {
+      border: 4px solid royalblue;
+      background-color: bisque;
+      color: rgb(35, 68, 198);
+      font-weight: bold;
+    }
+
+    .form-button {
+      display: flex;
+      text-align: center;
+
+    }
+
+    .form-button input {
+      width: 40%;
+      padding: 10px;
+      text-align: center;
+      font-size: 20px;
+      justify-content: center;
+      margin-left: 10%;
+      border-radius: 30 px;
+      font-weight: bold;
+    }
+
+    .form-button input:hover {
+      border: 2px solid rgb(31, 53, 59);
+      background-color: burlywood;
+      color: rgb(53, 41, 164);
+    }
+    .signup input:hover{
+      background-color: bisque;
+    }
+    hr {
+      background-color: black;
+    }
+
+    .fhr {
+      display: flex;
+      color: black;
+      font-weight: bold;
+    }
+
+    .continue-with {
+      width: 80%;
+      justify-content: center;
+      margin: auto;
+      padding: auto;
+      text-align: center;
+    }
+
+    .continue-with span {
+      width: 100%;
+      padding: 5px;
+      margin: 10px;
+      display: block;
+      border: 2px solid rgb(53, 41, 164);
+      border-radius: 30px;
+      font-size: 16px;
+    }
+
+    .continue-with span:hover {
+      background-color: rgb(114, 171, 218);
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="main_title">Mero Decoration</h1>
+  <div class="container">
+    <h2>Sign Up </h2>
+    <hr>
+    <form class="signup" method="post" action="MeroDecoration.html">
+      Enter full name :<br>
+      <input type="text" required="required"><br>
+      Enter your address : <br>
+      <input type="text" required="required"><br>
+      Enter mobile number : <br>
+      <input type="tel" minlength="10" maxlength="10" required="required"><br>
+      Enter gmail :<br>
+      <input type="email" required="required"><br>
+      Create password :<br>
+      <input type="password" minlength="8" name="pass1" required="required"><br>
+      Confirm password :<br>
+      <input type="password" minlength="8" name="pass2" required="required"><br>
+      <hr>
+      <div class="form-button">
+        <input type="reset" value="Cancel">
+        <input type="submit" value="Sign Up">
+      </div>
+    </form><br>
+    <span class="fhr">
+      <hr width="45%">OR
+      <hr width="45%"><br>
+    </span>
+    <div class="continue-with">
+      <span>
+        <svg height="16" width="16" viewBox="0 0 488 512">
+          <path fill="blue" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"></path>
+        </svg>
+        Continue with Facebook</span>
+      <span>
+        <svg height="16" width="16" viewBox="0 0 488 512">
+          <path fill="blue" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path>
+        </svg>
+        Continue with Google</span>
+    </div>
+    <hr>
+    <a href="#">Already have an account? Sign in</a>
+
+
+  </div>
+  <script>
+
+  </script>
+
+
+</body></html>
